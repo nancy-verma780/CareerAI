@@ -1,4 +1,4 @@
-from CareerAI.backend.ai_models import roadmap
+from ai_models import roadmap
 from fastapi import FastAPI, UploadFile, File
 from app.resume import extract_text
 from ai_models.skill_extractor import extract_skills
